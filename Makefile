@@ -12,7 +12,7 @@ INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
 LIBRARIES	:= 
 
-CPPFLAGS ?= $(INC_FLAGS) -MMD -MP -fPIC -Llib
+CPPFLAGS ?= $(INC_FLAGS) -MMD -MP -fPIC -Llib -pedantic -Wall
 
 
 SOFOLDER := solib
