@@ -43,4 +43,6 @@ public:
   char operator[](size_t i) const { return at(i); }
 
   std::vector<StringView> split_by_delim(char delim) const;
+
+  std::string to_string() const;
 };

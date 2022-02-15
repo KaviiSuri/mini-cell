@@ -31,3 +31,13 @@ std::vector<StringView> StringView::split_by_delim(char delim) const
 
   return result;
 }
+
+std::string StringView::to_string() const
+{
+  std::string result;
+  result.reserve(m_Len);
+  for (int idx = 0; idx < m_Len; idx++)
+    result.push_back(at(idx));
+
+  return result;
+}

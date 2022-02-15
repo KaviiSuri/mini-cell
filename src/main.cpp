@@ -4,11 +4,6 @@
 int main()
 {
     std::string data = "Hello World";
-    StringView sv(data);
-    std::vector<StringView> vsv = sv.split_by_delim(' ');
-
-    for (auto i : vsv)
-    {
-        std::cout << i << std::endl;
-    }
+    StringView sv(data, 2, 7);
+    std::cout << sv.to_string() << std::endl;
 }
