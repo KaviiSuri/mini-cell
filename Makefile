@@ -10,7 +10,7 @@ OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
 INC_DIRS := include
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
-LIBRARIES	:= -lSDL2 -lGLEW -lGL
+LIBRARIES	:= 
 
 CPPFLAGS ?= $(INC_FLAGS) -MMD -MP -fPIC -Llib
 

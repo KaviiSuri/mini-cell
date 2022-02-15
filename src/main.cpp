@@ -1,5 +1,6 @@
 #include <iostream>
 
-int main() {
-    std::cout << "Hello Easy C++ project!" << std::endl;
+int main()
+{
+    std::cout << "Hello From Minicell" << std::endl;
 }
