@@ -1,6 +1,6 @@
 #pragma once
 
-namespace cell
+namespace minicell::cell
 {
   template <typename T>
   class Base

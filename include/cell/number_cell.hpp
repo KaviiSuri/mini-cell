@@ -1,7 +1,7 @@
 #pragma once
 #include "cell.hpp"
 
-namespace cell
+namespace minicell::cell
 {
   class Number : Base<float>
   {
