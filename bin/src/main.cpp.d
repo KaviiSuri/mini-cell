@@ -1,3 +1,3 @@
-bin/src/main.cpp.o: src/main.cpp include/string_view.hpp
+bin/src/main.cpp.o: src/main.cpp include/sv_lib/string_view.hpp
 
-include/string_view.hpp:
+include/sv_lib/string_view.hpp:

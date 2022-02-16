@@ -4,7 +4,7 @@
 
 namespace cell
 {
-  class Text : Base<StringView>
+  class Text : Base<sv_lib::StringView>
   {
   };
 }
